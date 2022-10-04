@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ubuntu:ital,wght@0,300;0,400;1,300&display=swap');
+body {
+  margin:10;
+  font-family: Arial,sans-serif;
+}
+
+.btn{
+  margin:5px;
+}
+
+
+.title{
+  width: 100%;
+  padding: 0px;
+  text-align: center;
+  font-size: 25px;
+  background-color: black;
+  color: white;
+}
+
+.sticky-top{
+  z-index: 1!important;
+}
+
+.bg-info{
+  background-color: lightsteelblue!important;
+}
+.card{
+  box-shadow: 0 0 5px black;
+  width: 300px;
+  margin: 30px;
+  padding: 30px;
+  text-align: center;
+  color: black!important;
+  background-color: lightsteelblue!important;
+}
+
+.card-header{
+  background-color:lightgrey!important;
+  border-radius: 5px!important;  
+  box-shadow:0 0 3px black!important;
+  text-align:center;
+}
+
+.bg-secondary{
+  background-color: rgba(0, 0, 0, 0.2)!important;
+}
+
+.icon {
+  height: 40px;
+  width: 40px;
+}
+
+.back{
+  height:100%;
+  width: 100%;
+  background-color: white;
+}
+
+.scroll {  
+  height: 250px !important;
+  overflow: scroll;
+}
